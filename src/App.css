@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.div-show{
+  display: block;
+}
+.div-hide{
+  display: flex;
+  align-items: center;
+}
+.btn-style{
+  background: green;
+  color: antiquewhite;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.girls-filter{
+  display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+.search-filter{
+  padding: 4px;
+  border-radius: 5px;
+  background: green;
+  margin-right: 10px;
+  color: antiquewhite;
+  }
+  .search-filter::placeholder {
+    color: antiquewhite;; 
+}
+  .button{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+  }

@@ -1,0 +1,10 @@
+.search-filter::placeholder {
+    color: red; 
+  
+}
+.search-filter{
+    padding: 4px;
+    border-radius: 5px;
+    background: aquamarine;
+    margin-right: 10px;
+    }
