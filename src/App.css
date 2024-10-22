@@ -1,64 +1,97 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.mainContainer{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.main-book{
+  /* border: 2px solid green; */
+  border-radius: 5px;
+  padding: 10px;
+  padding: 20px; /* Adds some padding */
+  min-height: 100vh; /* Optional: Sets a minimum height */
   
 }
-.show{
-  display: block;
-}
-
-.hide{
-  display: none;
-}
-
-.div-show{
-  display: block;
-}
-.div-hide{
-  display: flex;
-  align-items: center;
-}
-.btn-style{
-  background: green;
-  color: antiquewhite;
-  padding: 5px 20px;
-  border: none;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-.girls-filter{
-  display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin-top: 25px;
-
-}
-.search-filter{
-  padding: 4px;
-  border-radius: 5px;
-  background: green;
-  margin-right: 10px;
-  color: antiquewhite;
-  }
-  .search-filter::placeholder {
-    color: antiquewhite;; 
-}
-  .button{
-    background-color: #4caf50;
-    border: none;
+.theBook{
+  text-align: center;
+  padding: 10px;
+  height: 95%;
     color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
+    border: 5px solid #888888;
+    margin-bottom: 10px;
+    background-image: url('https://img.freepik.com/premium-photo/many-old-books-bookstore-library-blurred_129479-5505.jpg');
+    
+}
+strong{
+  color: burlywood;
+}
+h2{
+  font-size: 20px;
+}
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 19px;
+  margin: auto;
+  background: cadetblue;
+    padding-inline: 10px;
     border-radius: 5px;
+    margin-bottom: 5px;
+}
+.more-details-link{
+  border: 1px solid;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-family: fantasy;
+  margin-bottom: 5px;
+  background: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 40%;
+  margin-inline: auto;
+  &:hover{
+    background: cornflowerblue;
+    color: white;
+
   }
+}
+.book-img{
+  margin: auto;
+  width: 70%;
+  height: 50%;
+  padding-bottom: 15px;
+}
+.main-title{
+    box-shadow: 5px 5px #888888;
+    margin: auto;
+    max-width: 55%;
+
+}
+.head-title{
+  box-shadow: 5px 5px #888888;
+    margin: auto;
+    max-width: 75%;
+    background: brown;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+table {
+  margin: auto;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.icon-hover {
+  transition: padding-bottom 0.3s ease; /* Smooth transition effect */
+  padding-left: 5px;
+}
+
+.icon-hover:hover {
+  padding-bottom: 15px;
+}

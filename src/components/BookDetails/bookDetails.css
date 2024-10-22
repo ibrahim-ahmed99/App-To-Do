@@ -1,0 +1,55 @@
+.bookDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://t3.ftcdn.net/jpg/09/17/48/84/360_F_917488467_WETs37DMEpMeeaGuXKHg4ei925SLlnlI.jpg');    
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.title{  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background: aliceblue;
+}
+.description{
+    background: linear-gradient(to right, black, grey);
+    padding: 20px;
+    color: antiquewhite;
+    margin-top: 10px;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.book-links{
+    background: brown;
+    color: aliceblue;
+    width: 25%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: fantasy;
+    border: 1px solid;
+    &:hover{
+        color: antiquewhite !important;
+        }
+}
+.link{
+    background: brown;
+    padding: 10px;
+    color: white;
+    border-radius: 5px; 
+     font-family: fantasy;
+    width: 35%;
+    border: 1px solid;
+    &:hover{
+    color: antiquewhite;
+    }
+}
