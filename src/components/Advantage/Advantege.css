@@ -1,0 +1,22 @@
+.advantage-icon{
+    max-width: 50%;
+    margin: auto;
+}
+h4{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+h5{
+    font-size: 20px;
+    padding: 15px;
+}
+hr{
+    height: 30px !important;
+}
+.advantege-card{
+    &:hover{
+        padding-top: 10px;
+        transition: all 0.1s;
+    }
+}

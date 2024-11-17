@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faHandPointDown } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
-
 export default function Author() {
     const {name} = useParams(); 
     const [loading, setLoading] = useState(false); // Loading state

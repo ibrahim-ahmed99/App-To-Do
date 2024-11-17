@@ -9,6 +9,9 @@
   min-height: 100vh; /* Optional: Sets a minimum height */
   
 }
+/* .main-page{
+  background: #e9e9d4;
+} */
 .theBook{
   text-align: center;
   padding: 10px;
@@ -17,6 +20,8 @@
     border: 5px solid #888888;
     margin-bottom: 10px;
     background-image: url('https://img.freepik.com/premium-photo/many-old-books-bookstore-library-blurred_129479-5505.jpg');
+    background-attachment: fixed;
+
     
 }
 strong{
@@ -43,15 +48,14 @@ h2{
   border-radius: 5px;
   font-family: fantasy;
   margin-bottom: 5px;
-  background: cornflowerblue;
-  display: flex;
+  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 100%);  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   max-width: 40%;
   margin-inline: auto;
   &:hover{
-    background: cornflowerblue;
+    background: #cda45e;
     color: white;
 
   }
@@ -61,12 +65,82 @@ h2{
   width: 70%;
   height: 50%;
   padding-bottom: 15px;
+  &:hover{
+    scale: 1.03;
+    transition: 0.3s;
+    
+  }
 }
 .main-title{
-    box-shadow: 5px 5px #888888;
-    margin: auto;
-    max-width: 55%;
+    font-family: cursive;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 8%;
+    max-width: 20%;
+    position: absolute;
+    right: 18%;
+    bottom: 10%;
+}
+.search{
+  position: absolute;
+  font-size: 18px;
+  padding: 10px;
+  background: black;
+  border-radius: 20px;
+  color: white;
+  width: 35%;
+  bottom: 8%;
+    left: 4%;
+    padding-left: 20px;
 
+}
+.search::placeholder {
+  color: white;
+  opacity: 1; /* Keeps the color solid, rather than translucent */
+}
+h1{
+  font-size: 80px;
+  line-height: 100px;
+  font-weight: 700;
+}
+.paragraph{
+  text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    max-width: 85%;
+}
+.and{
+  color: black;
+  border: 5px solid;
+  background: gold;
+  border-radius: 50%;
+  font-size: 55px;
+  padding: 0 15px;
+}
+.lamp{
+  max-width: 10%;
+    position: absolute;
+    right: 35%;
+    top: 10%;
+}
+.arrow{
+  max-width: 20%;
+    margin: auto;
+}
+.load-more{
+  display: flex;
+    border: 1px solid;
+    padding: 10px;
+    margin: auto;
+    background: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
 }
 .head-title{
   box-shadow: 5px 5px #888888;
@@ -76,6 +150,9 @@ h2{
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 15px;
+    overflow: scroll;
+    height: 75px;
+    scrollbar-width: none;
 }
 table {
   margin: auto;

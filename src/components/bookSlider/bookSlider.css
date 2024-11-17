@@ -1,0 +1,27 @@
+.slider-card{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: cadetblue;
+    width: 90% !important;
+    margin-inline: 20px;
+    margin: auto;
+    height: 350px;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 20px;
+}
+.slider-icon{
+    font-size: 100px;
+    color: brown;
+}
+h3{
+    color: white;
+    padding: 20px 0;
+}
+.slider-p{
+    font-size: 18px;
+    color: floralwhite;
+}

@@ -1,30 +1,16 @@
-.bookDetails{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('https://t3.ftcdn.net/jpg/09/17/48/84/360_F_917488467_WETs37DMEpMeeaGuXKHg4ei925SLlnlI.jpg');    
-    background-size: cover;
-    background-repeat: no-repeat;   
-}
 .title{  
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 2px solid;
+    /* position: fixed; */
+    transition: all 0.5s;
     font-size: 20px;
     width: 100%;
     padding: 10px;
-    background: aliceblue;
-}
-.description{
-    background: linear-gradient(to right, black, grey);
-    padding: 20px;
-    color: antiquewhite;
-    margin-top: 10px;
-    max-width: 95%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    background: #E9EAEC;
+    color: #245661;
+    z-index: 99;
+
 }
 .book-links{
     background: brown;
@@ -32,14 +18,21 @@
     width: 25%;
     text-align: center;
     margin-top: 5px;
+    margin-inline: auto;
     padding: 10px;
     border-radius: 5px;
     font-size: 18px;
     font-family: fantasy;
     border: 1px solid;
     &:hover{
-        color: antiquewhite !important;
+        color: aliceblue !important;
         }
+}
+.main-img{
+&:hover{
+    scale: 1.05;
+    transition: all 0.3s;
+}
 }
 .link{
     background: brown;
@@ -49,7 +42,19 @@
      font-family: fantasy;
     width: 35%;
     border: 1px solid;
-    &:hover{
-    color: antiquewhite;
-    }
+}
+span{
+    font-weight: 500;
+    color: #b7b7b7;
+    font-size: 30px;
+}
+.main-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+    margin-top: 10px;
+    padding: 0px 35px;
+    margin-bottom: 20px;
 }
